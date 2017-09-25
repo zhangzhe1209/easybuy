@@ -11,6 +11,6 @@ public class BaseDao {
 	}
 	
 	public void closeAll(Connection conn,Statement stat,ResultSet rs){
-		
+		if(conn!=null){}
 	}
 }
